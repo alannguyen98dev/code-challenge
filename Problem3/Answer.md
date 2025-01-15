@@ -1,4 +1,4 @@
-USE CODE VIEW FOR MORE PRETTY VIEW
+USE CODE VIEW FOR MORE PRETTY VIEW 
 
 interface WalletBalance {
   currency: string;
