@@ -3,6 +3,7 @@ interface WalletBalance {
   currency: string;
   amount: number;
 }
+
 interface FormattedWalletBalance {
   currency: string;
   amount: number;
@@ -22,7 +23,6 @@ const WalletPage: React.FC<Props> = (props: Props) => {
   const { children, ...rest } = props;
   const balances = useWalletBalances();
   const prices = usePrices();
-
 	const getPriority = (blockchain: any): number => {
 	  switch (blockchain) {
 	    case 'Osmosis':
