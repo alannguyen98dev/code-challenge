@@ -8,8 +8,7 @@ interface FormattedWalletBalance {
   currency: string;
   amount: number;
   formatted: string;
-}
-
+} 
 => use extends instead of create new interface
 like this: interface FormattedWalletBalance extends WalletBalance {
   formatted: string;
