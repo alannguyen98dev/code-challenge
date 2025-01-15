@@ -18,7 +18,7 @@ like this: interface FormattedWalletBalance extends WalletBalance {
 interface Props extends BoxProps {
 
 }
-=> remove unused interface
+=> remove unused interface 
 
 const WalletPage: React.FC<Props> = (props: Props) => {
   const { children, ...rest } = props;
