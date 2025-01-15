@@ -1,4 +1,5 @@
 USE CODE VIEW FOR MORE PRETTY VIEW
+
 interface WalletBalance {
   currency: string;
   amount: number;
