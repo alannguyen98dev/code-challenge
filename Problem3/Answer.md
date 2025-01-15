@@ -1,7 +1,7 @@
 USE CODE VIEW FOR MORE PRETTY VIEW 
 
 interface WalletBalance {
-  currency: string;
+  currency: string; 
   amount: number;
 }
 
